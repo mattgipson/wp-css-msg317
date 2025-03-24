@@ -10,22 +10,22 @@
 }
 
 .current-menu-item a {
-    color: #56d34c!important;
+    color: #56d34c !important;
 }
 
 .wp-block-lcb-logo-carousel {
-    max-width: none!important;
+    max-width: none !important;
     opacity: .95;
 }
 
 .wp-block-lcb-logo-carousel .alcb__logo-image img {
-    max-height: 50px!important;
+    max-height: 50px !important;
     width: auto;
     max-width: 100%
 }
 
 .swiper-slide.alcb__logo-item {
-    width: auto!important;
+    width: auto !important;
 }
 
 .wp-block-button a {
@@ -37,7 +37,7 @@
 }
 
 .wp-block-navigation a:where(:not(.wp-element-button)):hover {
-    color: #56d34c!important;
+    color: #56d34c !important;
 }
 
 a {
@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-    cursor: pointer!important;
+    cursor: pointer !important;
 }
 
 footer .wp-block-site-logo img {
@@ -59,8 +59,8 @@ footer .wp-block-site-logo:hover img {
 
 .wp-block-lcb-logo-carousel {
     width: 100%;
-    padding-left: 0px!important;
-    padding-right: 0px!important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
     position: relative;
 }
 
@@ -92,92 +92,106 @@ footer .wp-block-site-logo:hover img {
     border-color: #56d34c;
 }
 
-.wp-block-button.is-style-outline > .wp-block-button__link:not(.has-text-color,
-.has-background):hover {
+.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-text-color,
+    .has-background):hover {
     background-color: #56d34c;
     border-color: #56d34c;
 }
 
 a {
-    cursor: pointer!important;
+    cursor: pointer !important;
 }
 
 @media screen and (max-width: 600px) {
     .wp-block-lcb-logo-carousel .alcb__logo-image img {
-        max-height: 35px!important;
+        max-height: 35px !important;
     }
 }
 
 .has-modal-open .wp-block-navigation__responsive-container {
-    background: #56d34c!important;
+    background: #56d34c !important;
     transition: all ease-in 1s;
 }
 
 .has-modal-open .wp-block-navigation__responsive-container ul li a {
     font-size: 1.3em;
-    color: #111!important;
+    color: #111 !important;
 }
 
 .has-modal-open .wp-block-navigation__responsive-container ul li a:hover {
-    color: #111!important;
+    color: #111 !important;
     opacity: .8;
 }
 
 .wp-block-navigation__responsive-container-close {
-    color: #111!important;
+    color: #111 !important;
 }
 
 .wp-block-navigation__responsive-container-close svg {
-    height: 32px!important;
-    width: 32px!important;
+    height: 32px !important;
+    width: 32px !important;
 }
 
 .has-modal-open .wp-block-navigation-item.current-menu-item.wp-block-navigation-link a {
     text-decoration: underline;
 }
+
 .wp-block-lcb-logo-carousel .alcb__logo-caption.caption__hover {
-    font-size:8px!important;
-line-height:1em;
-padding-top:6px;
-padding-bottom:6px;
-text-align:left;
+    font-size: 8px !important;
+    line-height: 1em;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: left;
 }
+
 .coblocks-form select {
-    padding:10px;
+    padding: 10px;
 }
+
 .coblocks-form label {
-    color:#b7b7b7!important;
+    color: #b7b7b7 !important;
 }
+
 .wp-block-post-terms a {
-margin-bottom:1em!important;
+    margin-bottom: 1em !important;
 }
+
 .single-post .wp-block-separator {
-opacity:.4;
+    opacity: .4;
 }
+
 footer.wp-block-template-part {
-border-top:1px solid #222;
-margin-top:0px;
+    border-top: 1px solid #222;
+    margin-top: 0px;
 }
+
 header.wp-block-template-part {
-border-bottom:1px solid #222;
+    border-bottom: 1px solid #222;
 }
+
 .wp-block-list li {
-margin-bottom:10px;
+    margin-bottom: 10px;
 }
+
 .wp-block-list li:last-child {
-margin-bottom:0px;
+    margin-bottom: 0px;
 }
+
 .wp-block-post-title :where(a) {
-color:#f2f2f2;
-border-left:4px solid #56d34c;
-padding-left:15px;
+    color: #f2f2f2;
+    border-left: 4px solid #56d34c;
+    padding-left: 15px;
 }
+
 .wp-block-post-title :where(a):hover {
-color:#56d34c;
+    color: #56d34c;
 }
+
 .wp-block-post-content-is-layout-constrained {
-padding-bottom:100px;
+    padding-bottom: 100px;
 }
-.coblocks-form input, .coblocks-form textarea {
-font-size:16px;
+
+.coblocks-form input,
+.coblocks-form textarea {
+    font-size: 17px!important;
 }
