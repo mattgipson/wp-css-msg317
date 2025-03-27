@@ -201,5 +201,5 @@ header.wp-block-template-part {
 }
 
 footer.wp-block-template-part {
-    border-bottom:5px solid #333;
+    border-bottom:5px solid #333!important;
 }
