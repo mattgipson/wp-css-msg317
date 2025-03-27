@@ -225,6 +225,7 @@ footer.wp-block-template-part {
 .entry-content a[href^="https://"]:hover::after {
     opacity:1;
 }
+
 .wp-block-button__link::after, .wp-element-button::after {
     display:none!important;
 } 
