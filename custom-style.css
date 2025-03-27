@@ -204,8 +204,8 @@ footer.wp-block-template-part {
     border-bottom:5px solid #333!important;
 }
 
-.entry-content a[href^="http"]::after,
-.entry-content a[href^="https://"]::after
+.single-post .entry-content a[href^="http"]::after,
+.single-post .entry-content a[href^="https://"]::after
 {
   content: "";
   width: 11px;
@@ -221,8 +221,8 @@ footer.wp-block-template-part {
   opacity:.75;
   vertical-align:top;
 }
-.entry-content a[href^="http"]:hover::after,
-.entry-content a[href^="https://"]:hover::after {
+.single-post .entry-content a[href^="http"]:hover::after,
+.single-post .entry-content a[href^="https://"]:hover::after {
     opacity:1;
 }
 
