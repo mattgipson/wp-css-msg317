@@ -216,4 +216,8 @@ footer.wp-block-template-part {
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
+  color:#56d34c;
+}
+.entry-content a[href^="https"]::after svg {
+    fill:currentColor;
 }
