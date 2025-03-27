@@ -195,3 +195,7 @@ header.wp-block-template-part {
 .coblocks-form textarea {
     font-size: 16px;
 }
+
+.wp-block-navigation__responsive-container {
+    transition: all 1s ease-in;
+}
