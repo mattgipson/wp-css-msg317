@@ -210,12 +210,18 @@ footer.wp-block-template-part {
   content: "";
   width: 11px;
   height: 11px;
-  margin-left: 4px;
+  margin-left: 5px;
+  margin-top:3px;
   background-image: url("/wp-content/uploads/2025/03/external-link-green.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
   color:#56d34c;
-  opacity:.7;
+  opacity:.75;
+  vertical-align:top;
+}
+.entry-content a[href^="http"]:hover::after,
+.entry-content a[href^="https://"]:hover::after {
+    opacity:1;
 }
