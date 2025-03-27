@@ -199,3 +199,7 @@ header.wp-block-template-part {
 .wp-block-navigation__responsive-container {
     transition: all 1s ease-in;
 }
+
+footer.wp-block-template-part {
+    border-bottom:5px solid #333;
+}
