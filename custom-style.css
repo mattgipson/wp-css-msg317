@@ -227,3 +227,59 @@ footer.wp-block-template-part {
     display:none!important;
 } 
 
+@media screen and (max-width: 600px) {
+.wp-block-navigation__responsive-container {
+    /* Position it fixed so it slides down over the page */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  
+    /* Hide it off-screen initially */
+    transform: translateY(-100%);
+  
+    /* Slime-green background color (change to taste) */
+    background-color: #56d34c; 
+  
+    /* Set the transform origin to the top so it “stretches down” from there */
+    transform-origin: top;
+  
+    /* Ensure it sits on top of other elements */
+    z-index: 9999;
+  
+    /* We'll control the animation through keyframes */
+    animation: none;
+    pointer-events: none; /* optional: prevent clicks when closed */
+    opacity: 0;          /* optional: keep it transparent while closed */
+  }
+  
+  /* When the menu is toggled open, add an “open” class or 
+     check what the theme uses. Something like '.show' or '.is-open' 
+     or in Twenty Twenty-Four's case, .activated might appear on body. */
+  .wp-block-navigation__responsive-container.is-menu-open {
+    pointer-events: auto;
+    opacity: 1;
+  
+    /* Use custom keyframe animation */
+    animation: slimeDrop 0.8s ease forwards;
+  }
+  
+  /* Keyframe for the slime drop effect */
+  @keyframes slimeDrop {
+    0% {
+      transform: translateY(-100%) scaleY(0.2);
+      /* Round the bottom corners to look like it's dripping down */
+      border-radius: 0 0 100% 100%;
+    }
+    40% {
+      transform: translateY(0) scaleY(1.2);
+      /* Pull in the sides for a bouncy “slime” feel */
+      border-radius: 0 0 25% 25%;
+    }
+    100% {
+      transform: translateY(0) scaleY(1);
+      /* Return to normal shape */
+      border-radius: 0;
+    }
+  }
+}
