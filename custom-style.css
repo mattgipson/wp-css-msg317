@@ -239,7 +239,7 @@ footer.wp-block-template-part {
     transform: translateY(-100%);
   
     /* Slime-green background color (change to taste) */
-    background-color: #32cd32; 
+    background-color: #56d34c; 
   
     /* Set the transform origin to the top so it “stretches down” from there */
     transform-origin: top;
@@ -260,8 +260,8 @@ footer.wp-block-template-part {
     pointer-events: auto;
     opacity: 1;
   
-    /* Use our custom keyframe animation */
-    animation: slimeDrop 0.6s ease forwards;
+    /* Use custom keyframe animation */
+    animation: slimeDrop 0.8s ease forwards;
   }
   
   /* Keyframe for the slime drop effect */
@@ -271,7 +271,7 @@ footer.wp-block-template-part {
       /* Round the bottom corners to look like it's dripping down */
       border-radius: 0 0 100% 100%;
     }
-    50% {
+    40% {
       transform: translateY(0) scaleY(1.2);
       /* Pull in the sides for a bouncy “slime” feel */
       border-radius: 0 0 25% 25%;
@@ -282,4 +282,3 @@ footer.wp-block-template-part {
       border-radius: 0;
     }
   }
-  
