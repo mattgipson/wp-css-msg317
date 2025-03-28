@@ -230,8 +230,8 @@ footer.wp-block-template-part {
     display:none!important;
 } 
 
-/* Example selectors: adapt these to your actual menu’s classes/IDs */
-.primary-menu-modal {
+
+.wp-block-navigation__responsive-container {
     /* Position it fixed so it slides down over the page */
     position: fixed;
     top: 0;
@@ -259,7 +259,7 @@ footer.wp-block-template-part {
   /* When the menu is toggled open, add an “open” class or 
      check what the theme uses. Something like '.show' or '.is-open' 
      or in Twenty Twenty-Four's case, .activated might appear on body. */
-  .primary-menu-modal.is-open {
+  .wp-block-navigation__responsive-container.is-menu-open {
     pointer-events: auto;
     opacity: 1;
   
