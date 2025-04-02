@@ -16,9 +16,10 @@
     color:#f2f2f2;
 }
 
-.wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content {
-    color:#f2f2f2;
+.wp-block-navigation .wp-block-navigation-item__content.current-menu-item.wp-block-navigation-item__content {
+    color:#56d34c;
 }
+.wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content
 
 .wp-block-navigation .wp-block-navigation-item__content .wp-block-navigation-item__content.current-menu-ancestor {
     color:#56d34c;
