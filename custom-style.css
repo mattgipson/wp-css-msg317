@@ -10,9 +10,11 @@
 }
 
 .current-menu-item a {
-    color: #56d34c !important;
+    color: #56d34c;
 }
-
+.current-menu-item ul li a {
+    color:#f2f2f2;
+}
 .wp-block-lcb-logo-carousel {
     max-width: none !important;
     opacity: .95;
@@ -287,8 +289,8 @@ footer.wp-block-template-part {
 .mailerlite-form {
 
 }
-.mailerlite-form-title {
-
+.mailerlite-form-title h3 {
+    margin-bottom:5px;
 }
 .mailerlite-description {
 
@@ -331,4 +333,8 @@ footer.wp-block-template-part {
     padding-left: 1rem;
     text-decoration: none;
     font-size:15px;
+}
+
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+    background-color:#111;
 }
