@@ -24,9 +24,7 @@
     color:#56d34c;
 }
 
-.wp-block-navigation .wp-block-navigation-item__content.current-menu-item .wp-block-navigation-item__content {
-    color:#56d34c;
-}
+
 
 .current-menu-item ul li a:hover {
     color:#56d34c;
@@ -35,6 +33,12 @@
 .wp-block-navigation .wp-block-navigation__submenu-icon {
     margin-left:.4em;
     font-size:1.4rem;
+}
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container .current-menu-item .wp-block-navigation-item__content {
+    color:#56d34c;
+}
+a.wp-block-navigation-item__content.current-menu-ancestor {
+    color:#56d34c;
 }
 .wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation-item__content {
     padding:15px;
