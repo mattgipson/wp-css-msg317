@@ -37,8 +37,9 @@
     font-size:1.4rem;
 }
 .wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation-item__content {
-    padding:10px;
+    padding:15px;
     line-height:1.25em;
+    font-weight: 300;
 }
 .wp-block-lcb-logo-carousel {
     max-width: none !important;
