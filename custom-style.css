@@ -143,12 +143,6 @@ a {
         max-height: 35px !important;
     }
 }
-/*
-.has-modal-open .wp-block-navigation__responsive-container {
-    background: #56d34c !important;
-    transition: all ease-in 1s;
-}
-*/
 
 .has-modal-open .wp-block-navigation__responsive-container ul li a {
     font-size: 1.3em;
@@ -323,18 +317,23 @@ footer.wp-block-template-part {
 .mailerlite-form {
 
 }
+
 .mailerlite-form-title h3 {
     margin-bottom:5px;
 }
+
 .mailerlite-description {
 
 }
+
 .mailerlite-inputs {
     
 }
+
 .mailerlite-form-field {
 
 }
+
 .mailerlite-form-loader {
 
 }
