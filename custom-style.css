@@ -34,12 +34,15 @@
     margin-left:.4em;
     font-size:1.4rem;
 }
+
 .wp-block-navigation .has-child .wp-block-navigation__submenu-container .current-menu-item .wp-block-navigation-item__content {
     color:#56d34c;
 }
+
 a.wp-block-navigation-item__content.current-menu-ancestor {
     color:#56d34c;
 }
+
 .wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation-item__content {
     padding:15px;
     line-height:1.25em;
