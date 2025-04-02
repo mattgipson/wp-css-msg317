@@ -283,3 +283,32 @@ footer.wp-block-template-part {
     }
   }
 }
+
+.mailerlite-form {
+
+}
+.mailerlite-form-title {
+
+}
+.mailerlite-description {
+
+}
+.mailerlite-inputs {
+    
+}
+.mailerlite-form-field {
+
+}
+.mailerlite-form-loader {
+
+}
+.mailerlite-subscribe-button-container {
+
+}
+.mailerlite-response {
+    
+}
+.mailerlight-form input[type="email"] {
+    padding:6px;
+    font-size:16px;
+}
